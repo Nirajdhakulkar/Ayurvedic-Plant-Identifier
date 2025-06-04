@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Dropout
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
 
-base_dir = 'structured_dataset'
+datasetpath = os.path.join("structured_dataset", "plants_known") #path
 plants_known_dir = os.path.join(base_dir, 'plants_known')
 plants_unknown_dir = os.path.join(base_dir, 'plants_unknown')
 non_plant_dir = os.path.join(base_dir, 'non_plant_objects')
