@@ -7,7 +7,7 @@ import os
 
 model = load_model('plant_classifier_model.h5')  
 
-datasetpath=r"C:\Users\LENOVO\OneDrive\Desktop\dl mini\structured_dataset\plants_known"
+datasetpath="structured_dataset" #path of dataset
 class_labels = sorted(os.listdir(datasetpath)) 
 
 
